@@ -1,0 +1,54 @@
+body {
+    background-color: #e6e6e6;
+    font-family: Tahoma, Arial, Verdana; font-size: 12px; color: #2E2A57; }
+a{text-decoration: none;}
+body .site {
+padding: 0 40px;
+padding: 0 2.857142857rem;
+margin-top: 48px;
+margin-top: 3.428571429rem;
+margin-bottom: 48px;
+margin-bottom: 3.428571429rem;
+box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+.site {
+margin: 0 auto;
+max-width: 960px;
+max-width: 68.571428571rem;
+overflow: hidden;
+padding: 0 24px;
+padding: 0 1.714285714rem;
+background-color: #fff;
+}
+select{  }
+input{  }
+#table1{
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+td{ padding: 3px; border: solid 1px #fff; }
+tr:nth-child(even){ background: #E1F6C5; }
+tr:nth-child(odd){ background: #D5DDDC; }
+
+th{background: #8f8f8f;
+border-right: 1px solid #bdbdbd;
+padding: 7px 9px;
+text-transform: uppercase;
+min-width: 80px;
+color: #FFF;
+font-size: 11px;}
+#wpadminbar{ direction: ltr;
+color: #ccc;
+font: normal 13px/28px sans-serif;
+height: 28px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+min-width: 600px;
+z-index: 99999;
+background: #464646;
+}
+#wpadminbar .quicklinks ul { float: right; text-align: left; padding-right: 50px; margin-top: 1px; }
+#wpadminbar li{float: right; list-style-type: none; padding-left: 20px; }
+.list li {padding: 5px; border: solid 1px; margin: 2px;}
